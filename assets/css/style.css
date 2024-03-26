@@ -1,0 +1,137 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset */
+
+:root{
+    font-family: "Roboto", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+
+
+/* general */
+
+.div-container {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+body{
+    overflow-x: hidden;
+}
+
+.dancing {
+    font-family: "Dancing Script", cursive;
+}
+
+
+
+
+/* valueP */
+
+.valueP{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.7)), url(../img/49533968_2051768461556627_3769919836260401152_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.valuePContainer{
+    max-width: 75vw;
+}
+
+.valuePContainer h1{
+    transform: rotate(-10deg);
+    font-size: 5rem;
+}
+
+
+.valuePContainer p {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+/* progra */
+
+.progra{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.prograContainer{
+    max-width: 75vw;
+
+    
+}
+
+.prograContainer h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.prograContainer p{
+    margin-top: 4rem;
+}
+
+/*Super*/
+.super{
+    min-height: 50vh;
+    background-image: url(../img/56344433_2176897425710396_1599965237195309056_n.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+/*evenements*/
+
+.evenements{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.evenementsContainer{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.evenementsContainer h2{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+   
+}
+
